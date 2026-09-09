@@ -1,5 +1,5 @@
 ///week01-2.cpp
-#include <iostream>///c++����J��X
+#include <iostream>///c++ªº¿é¤J¿é¥X
 int main()
 {
 	int n;
@@ -9,5 +9,7 @@ int main()
 		ans=ans*10+n%10;
 		n=n/10;
 	}
+	//std::cout<<b<<ans<<b+ans; 錯的
+	//printf("%d+%d=%d",b,ans,b+ans);可以
 	std::cout<<b<<"+"<<ans<<"="<<b+ans<<std::endl;
 }
